@@ -49,6 +49,30 @@ implemented.
 
 This will be the core functionality of new Pelican plugin.
 
+##### File hierarchy for generated HTML pages
+
+Existing Pelican output:
+```
+output/path/to/article.html
+or
+output/path/to/article/index.html
+```
+
+Extra output enabled by this plugin:
+```
+output/path/to/article/
+                       history/index.html
+                       diff/commit1-to-current/index.html
+                       diff/commit1-to-previous/index.html
+                       diff/commit2-to-current/index.html
+                       diff/commit2-to-previous/index.html
+                       ...
+```
+
+All generated URLs are meant to be "clean" (ending in directory name with a
+trailing slash). Alternative behavior might be enabled via configuration
+variable but this is planned as a low priority task.
+
 ### Recent changes
 
 Generating a site-wide list of recent changes seems useful. The list in
