@@ -60,8 +60,8 @@ This will be the extra functionality of new Pelican plugin.
 
 ### Orphaned pages
 
-There should exist a way to list pages cannot be accessed by a sequence of
-hyperlinks from the main page.
+There should exist a way to list pages which cannot be accessed by a sequence
+of hyperlinks from the main page.
 
 This is the task for website administrator, not for authors or users. This will
 not be included in the Pelican plugin. Another tool should be found for this
